@@ -25,6 +25,6 @@ module.exports = app => {
     router.delete("/", cafe.deleteAll);
   
     //app.use("/cafe", router);
-    app.use("/api/", router)
+    app.use("/api", router)
   };
   

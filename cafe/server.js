@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to @Tuananh00069 application cafe đen " });
 });
 
-//require("./app/routes/cafe.routes")(app);
+require("./app/routes/cafe.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8095;
